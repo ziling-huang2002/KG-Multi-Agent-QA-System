@@ -30,6 +30,14 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
+### 執行步驟
+```bash
+python setup_data.py
+python build_kg.py
+# 測試個別問題
+python query_system_multiagent.py
+python auto_test_a5.py
+```
 ---
 
 ## 2. Architecture Diagram
